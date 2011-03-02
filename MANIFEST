@@ -14,6 +14,7 @@ lib/IO/Wrap.pm
 lib/IO/WrapTie.pm
 t/Common.pm
 t/ExtUtils/TBone.pm
+t/IO_InnerFile.t
 t/IO_Lines.t
 t/IO_Scalar.t
 t/IO_ScalarArray.t

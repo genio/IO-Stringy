@@ -3,14 +3,14 @@
 1: OPEN: open a scalar on a ref to an array
 1: ok 1
 
-2: PRINT: able to print to IO::Lines=GLOB(0x8a07aa0)
+2: PRINT: able to print to IO::Lines=GLOB(0x849a6c0)
 2: ok 2
 
 3: GETC: seek(0,0) and getc()
 3: ok 3
 
 4: GETLINE/SEEK3: seek(3,START) and getline() gets part of 1st line
-4:   GH: "IO::Lines=GLOB(0x8a07aa0)"
+4:   GH: "IO::Lines=GLOB(0x849a6c0)"
 4:   Got: "iner while dining at Crewe\n"
 4:   Want: "iner while dining at Crewe\n"
 4: ok 4
@@ -62,7 +62,7 @@
 
 15: TIE/TIE: able to tie
 15:   TieClass: "IO::Lines"
-15:   TieArgs: "ARRAY(0x890911c)"
+15:   TieArgs: "ARRAY(0x849a810)"
 15: ok 15
 
 16: TIE/PRINT: printing data

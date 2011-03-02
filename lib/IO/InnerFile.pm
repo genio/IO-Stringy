@@ -150,6 +150,7 @@ sub binmode  { 1; }
 sub getc     { return GETC(tied(${$_[0]}) ); }
 sub read     { return READ(     tied(${$_[0]}), @_[1,2,3] ); }
 sub readline { return READLINE( tied(${$_[0]}) ); }
+
 sub getline  { return READLINE( tied(${$_[0]}) ); }
 sub close    { return CLOSE(tied(${$_[0]}) ); }
 
@@ -226,7 +227,17 @@ sub READ   {
     return $lg;
 }
 
-sub READLINE { 
+sub READLINE {
+    my ($self) = @_;
+    return $self->_readline_helper() unless wantarray;
+    my @arr;
+    while(defined(my $line = $self->_readline_helper())) {
+	    push(@arr, $line);
+    }
+    return @arr;
+}
+
+sub _readline_helper { 
     my ($self) = @_;
     return undef if ($self->{CRPOS} >= $self->{LG});
 
