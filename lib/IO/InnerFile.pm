@@ -146,6 +146,7 @@ sub write    { shift->WRITE(@_) }
 sub print    { shift->PRINT(@_) }
 sub printf   { shift->PRINTF(@_) }
 sub flush    { "0 but true"; }
+sub fileno   { }
 sub binmode  { 1; }
 sub getc     { return GETC(tied(${$_[0]}) ); }
 sub read     { return READ(     tied(${$_[0]}), @_[1,2,3] ); }

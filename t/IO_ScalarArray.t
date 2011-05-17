@@ -20,7 +20,7 @@ my $T = typical ExtUtils::TBone;
 Common->test_init(TBone=>$T);
 
 # Set the counter:
-my $main_tests = 1;
+my $main_tests = 1+1;
 my $common_tests = (1 + 1 + 4 + 4 + 3 + 4
 		    + Common->test_recordsep_count($RECORDSEP_TESTS));
 $T->begin($main_tests + $common_tests);
@@ -29,6 +29,7 @@ $T->begin($main_tests + $common_tests);
 my @sa = @Common::DATA_SA;
 my $SAH = IO::ScalarArray->new(\@sa);
 $T->ok($SAH, "OPEN: open a scalar on a ref to an array");
+$T->ok(!defined($SAH->fileno()), 'fileno() returns undef');
 
 # Run standard tests:
 Common->test_print($SAH);

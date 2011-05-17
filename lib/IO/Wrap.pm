@@ -49,6 +49,12 @@ sub close {
     my $self = shift;
     return close($$self);
 }
+sub fileno {
+    my $self = shift;
+    my $fh = $$self;
+    return fileno($fh);
+}
+
 sub getline {
     my $self = shift;
     my $fh = $$self;

@@ -270,6 +270,17 @@ sub flush { "0 but true" }
 
 #------------------------------
 
+=item fileno
+
+I<Instance method.>
+No-op, returns undef
+
+=cut
+
+sub fileno { }
+
+#------------------------------
+
 =item getc
 
 I<Instance method.>
