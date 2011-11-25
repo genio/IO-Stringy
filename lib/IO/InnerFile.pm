@@ -242,6 +242,13 @@ sub _readline_helper {
     my ($self) = @_;
     return undef if ($self->{CRPOS} >= $self->{LG});
 
+    # Handle slurp mode (CPAN ticket #72710)
+    if (! defined($/)) {
+	    my $text;
+	    $self->READ($text, $self->{LG} - $self->{CRPOS});
+	    return $text;
+    }
+
     ### Save and seek...
     my $old_pos = $self->{FH}->tell;
     $self->{FH}->seek($self->{CRPOS}+$self->{START}, 0);

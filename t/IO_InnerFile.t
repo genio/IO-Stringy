@@ -18,7 +18,7 @@ use Common;
 my $T = typical ExtUtils::TBone;
 Common->test_init(TBone=>$T);
 
-$T->begin(6);
+$T->begin(7);
 
 # Create a test file
 open(OUT, '>t/dummy-test-file') || die("Cannot write t/dummy-test-file: $!");
@@ -53,6 +53,14 @@ my @arr;
 $T->ok(scalar(@arr) == 2);
 $T->ok_eq($arr[0], "Here is some more dummy content\n");
 $T->ok_eq($arr[1], "Here is yet more dummy content.\n");
+
+# Make sure slurp mode works as expected
+$inner->seek(0, 0);
+{
+	local $/;
+	my $contents = <$inner>;
+	$T->ok_eq($contents, "Here is some more dummy content\nHere is yet more dummy content.\n");
+}
 
 # So we know everything went well...
 $T->end;
