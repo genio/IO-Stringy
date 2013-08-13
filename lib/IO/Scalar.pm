@@ -327,7 +327,7 @@ sub getline {
     my $i  = *$self->{Pos};	        ### Start matching at this point.
 
     ### Minimal impact implementation!
-    ### We do the fast fast thing (no regexps) if using the
+    ### We do the fast thing (no regexps) if using the
     ### classic input record separator.
 
     ### Case 1: $/ is undef: slurp all...
@@ -630,7 +630,7 @@ sub tell { *{shift()}->{Pos} }
 # use_RS [YESNO]
 #
 # I<Instance method.>
-# Obey the curent setting of $/, like IO::Handle does?
+# Obey the current setting of $/, like IO::Handle does?
 # Default is false in 1.x, but cold-welded true in 2.x and later.
 #
 sub use_RS {

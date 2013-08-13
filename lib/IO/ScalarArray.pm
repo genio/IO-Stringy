@@ -311,7 +311,7 @@ sub getline {
 
 
     ### Minimal impact implementation!
-    ### We do the fast fast thing (no regexps) if using the
+    ### We do the fast thing (no regexps) if using the
     ### classic input record separator.
 
     ### Case 1: $/ is undef: slurp all...    
@@ -334,7 +334,7 @@ sub getline {
     ### Case 2: $/ is "\n": 
     elsif ($/ eq "\012") {    
 	
-	### Until we hit EOF (or exitted because of a found line):
+	### Until we hit EOF (or exited because of a found line):
 	until ($self->eof) {
 	    ### If at end of current string, go fwd to next one (won't be EOF):
 	    if ($self->_eos) {++*$self->{Str}, *$self->{Pos}=0};
