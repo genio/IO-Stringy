@@ -693,6 +693,7 @@ sub CLOSE     { shift->close(@_); }
 sub SEEK      { shift->seek(@_); }
 sub TELL      { shift->tell(@_); }
 sub EOF       { shift->eof(@_); }
+sub BINMODE   { 1; }
 
 #------------------------------------------------------------
 
