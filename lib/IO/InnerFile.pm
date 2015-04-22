@@ -294,7 +294,7 @@ Original version by Doru Petrescu (pdoru@kappa.ro).
 
 Documentation and by Eryq (eryq@zeegee.com).
 
-Currently maintained by David F. Skoll (dfs@roaringpenguin.com).
+Currently maintained by Dianne Skoll (dfs@roaringpenguin.com).
 
 =cut
 

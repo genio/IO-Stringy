@@ -737,7 +737,7 @@ $Id: Scalar.pm,v 1.6 2005/02/10 21:21:53 dfs Exp $
 
 =head2 Primary Maintainer
 
-David F. Skoll (F<dfs@roaringpenguin.com>).
+Dianne Skoll (F<dfs@roaringpenguin.com>).
 
 =head2 Principal author
 

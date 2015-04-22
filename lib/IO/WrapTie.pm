@@ -480,7 +480,7 @@ $Id: WrapTie.pm,v 1.2 2005/02/10 21:21:53 dfs Exp $
 
 =item Primary Maintainer
 
-David F. Skoll (F<dfs@roaringpenguin.com>).
+Dianne Skoll (F<dfs@roaringpenguin.com>).
 
 =item Original Author
 
