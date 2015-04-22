@@ -94,6 +94,10 @@ TO DO
         like an IO::Scalar in its use of globrefs.
 
 CHANGE LOG
+    Version 2.111 (2015/04/22)
+
+        Update maintainer's name, which is now Dianne Skoll.
+
     Version 2.110 (2005/02/10)
         Maintainership taken over by DSKOLL <dfs@roaringpenguin.com>
 
