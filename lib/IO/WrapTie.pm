@@ -12,7 +12,7 @@ use Exporter;
 # Inheritance, exporting, and package version:
 @ISA     = qw(Exporter);
 @EXPORT  = qw(wraptie);
-$VERSION = "2.110";
+$VERSION = "2.111";
 
 # Function, exported.
 sub wraptie {
