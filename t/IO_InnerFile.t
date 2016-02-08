@@ -21,13 +21,13 @@ Common->test_init(TBone=>$T);
 $T->begin(7);
 
 # Create a test file
-open(OUT, '>t/dummy-test-file') || die("Cannot write t/dummy-test-file: $!");
-print OUT <<'EOF';
-Here is some dummy content.
-Here is some more dummy content
-Here is yet more dummy content.
-And finally another line.
-EOF
+open(OUT, '>', 't/dummy-test-file') || die("Cannot write t/dummy-test-file: $!");
+binmode OUT;
+my $data = "Here is some dummy content.\n";
+$data   .= "Here is some more dummy content\n";
+$data   .= "Here is yet more dummy content.\n";
+$data   .= "And finally another line.\n";
+print OUT $data;
 close(OUT);
 
 # Open it as a regular file handle
