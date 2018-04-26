@@ -1,7 +1,8 @@
 package IO::Stringy;
+use strict;
+use Exporter;
 
-use vars qw($VERSION);
-$VERSION = "2.111";
+our $VERSION = "2.112";
 
 1;
 __END__

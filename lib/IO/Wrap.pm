@@ -1,19 +1,13 @@
 package IO::Wrap;
 
-# SEE DOCUMENTATION AT BOTTOM OF FILE
-
-require 5.002;
-
 use strict;
-use vars qw(@ISA @EXPORT $VERSION);
-@ISA = qw(Exporter);
-@EXPORT = qw(wraphandle);
-
+use Exporter;
 use FileHandle;
 use Carp;
 
-# The package version, both in 1.23 style *and* usable by MakeMaker:
-$VERSION = "2.111";
+our $VERSION = "2.112";
+our @ISA = qw(Exporter);
+our @EXPORT = qw(wraphandle);
 
 
 #------------------------------

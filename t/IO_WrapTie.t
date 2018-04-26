@@ -43,7 +43,7 @@ $SH->print($hello, $world);
 $T->ok($s eq "$hello$world$hello$world",
        "FH->print(ARGS)",
        S => $s);
-      
+
 #### test
 $SH->seek(0,0);
 $T->ok(1, "FH->seek(0,0)");
@@ -62,5 +62,3 @@ $T->ok($sref eq \$s, "FH->sref");
 
 # So we know everything went well...
 $T->end;
-
-
