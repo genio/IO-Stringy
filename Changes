@@ -1,7 +1,7 @@
 Revision history IO::Stringy
 
 2.113
-  -
+  - Get rid of use of Common and TBone in t/IO_Lines.t
 
 2.112    2019-12-13
   - Added the change log from any prior source that could be found. Formatted

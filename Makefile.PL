@@ -30,6 +30,7 @@ my %TestReqs = (
   'FileHandle' => 0,
   "IO::File" => 0,
   "IO::Handle" => 0,
+  "Symbol" => 0,
   "Test::More" => 0,
   "strict" => 0,
   "warnings" => 0,
