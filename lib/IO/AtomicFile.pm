@@ -3,7 +3,7 @@ package IO::AtomicFile;
 use strict;
 use IO::File;
 
-our $VERSION = "2.112";
+our $VERSION = "2.113";
 
 our @ISA = qw(IO::File);
 

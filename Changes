@@ -1,5 +1,8 @@
 Revision history IO::Stringy
 
+2.113
+  -
+
 2.112    2019-12-13
   - Added the change log from any prior source that could be found. Formatted
     the log to fit metacpan.org loose standards.

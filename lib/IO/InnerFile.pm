@@ -4,7 +4,7 @@ use strict;
 use Symbol;
 
 # The package version, both in 1.23 style *and* usable by MakeMaker:
-our $VERSION = "2.112";
+our $VERSION = "2.113";
 
 
 =head1 NAME

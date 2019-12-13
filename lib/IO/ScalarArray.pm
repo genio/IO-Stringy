@@ -5,7 +5,7 @@ use Carp;
 use IO::Handle;
 
 # The package version, both in 1.23 style *and* usable by MakeMaker:
-our $VERSION = "2.112";
+our $VERSION = "2.113";
 
 # Inheritance:
 our @ISA = qw(IO::Handle);
