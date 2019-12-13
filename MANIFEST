@@ -14,7 +14,6 @@ LICENSE
 Makefile.PL
 MANIFEST			This list of files
 README.md
-set-version.pl
 t/Common.pm
 t/ExtUtils/TBone.pm
 t/IO_InnerFile.t

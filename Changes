@@ -1,3 +1,5 @@
+Revision history IO::Stringy
+
 2.112
   - Added the change log from any prior source that could be found. Formatted
     the log to fit metacpan.org loose standards.
@@ -8,6 +10,12 @@
   - Hide IO::WrapTie subclasses from PAUSE
   - Rebuild Makefile.PL to contain all of the prerequisites. Make use of the
     stub from Dist::Zilla
+  - Convert README to README.md
+  - Fix the documentation in the main module, IO::Stringy to better indicate
+    where to get info and how to use the module
+  - Fix the dist's META information to indicate the original author and license
+  - Add a LICENSE file
+  - Get rid of the set-version.pl file as it's no longer needed
 
 2.111    2015-04-22
   - Update maintainer's name, which is now Dianne Skoll.
