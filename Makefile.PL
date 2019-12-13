@@ -25,6 +25,8 @@ my %DevReqs = (
 );
 my %TestReqs = (
   'File::Basename' => 0,
+  'File::Spec' => 0,
+  'File::Temp' => 0,
   'FileHandle' => 0,
   "IO::File" => 0,
   "IO::Handle" => 0,
