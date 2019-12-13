@@ -1,16 +1,16 @@
 {
    "abstract" : "I/O on in-core objects like strings and arrays",
    "author" : [
-      "Dianne Skoll <dskoll@cpan.org>"
+      "Erik Dorfman <eryq@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "ExtUtils::MakeMaker version 7.38, CPAN::Meta::Converter version 2.143240",
+   "generated_by" : "ExtUtils::MakeMaker version 7.38, CPAN::Meta::Converter version 2.150010",
    "license" : [
       "perl_5"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
-      "version" : "2"
+      "version" : 2
    },
    "name" : "IO-Stringy",
    "no_index" : {
@@ -69,6 +69,8 @@
    },
    "version" : "2.112",
    "x_contributors" : [
-      "Chase Whitener <capoeirab@cpan.org>"
-   ]
+      "Chase Whitener <capoeirab@cpan.org>",
+      "Dianne Skoll <dskoll@cpan.org>"
+   ],
+   "x_serialization_backend" : "JSON::PP version 4.04"
 }

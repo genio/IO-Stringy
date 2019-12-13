@@ -49,8 +49,8 @@ my %WriteMakefileArgs = (
   DISTNAME     => 'IO-Stringy',
   VERSION_FROM => 'lib/IO/Stringy.pm',
   ABSTRACT     => 'I/O on in-core objects like strings and arrays',
-  AUTHOR       => 'Dianne Skoll <dskoll@cpan.org>',
-  LICENSE      => 'perl',
+  AUTHOR       => 'Erik Dorfman <eryq@cpan.org>',
+  LICENSE      => 'perl_5',
   META_MERGE   => {
     dynamic_config => 0,
     'meta-spec'    => {version => 2},
@@ -66,6 +66,7 @@ my %WriteMakefileArgs = (
     },
     'x_contributors' => [
       'Chase Whitener <capoeirab@cpan.org>',
+      'Dianne Skoll <dskoll@cpan.org>',
     ],
   },
   "CONFIGURE_REQUIRES" => \%ConfigReqs,
