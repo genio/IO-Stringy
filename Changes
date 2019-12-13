@@ -16,6 +16,8 @@ Revision history IO::Stringy
   - Fix the dist's META information to indicate the original author and license
   - Add a LICENSE file
   - Get rid of the set-version.pl file as it's no longer needed
+  - Add AppVeyor CI testing
+  - Add Travis CI testing
 
 2.111    2015-04-22
   - Update maintainer's name, which is now Dianne Skoll.
