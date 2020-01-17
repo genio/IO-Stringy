@@ -1,6 +1,8 @@
 Revision history  {{$dist->name}}
 
 {{$NEXT}}
+
+2.113     2020-01-16
   - Get rid of use of Common and TBone in all tests
   - Convert to Dist::Zilla for authoring
   - Cleaned up some of the docs. Needs more.
