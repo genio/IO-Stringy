@@ -624,7 +624,6 @@
    },
    "x_contributors" : [
       "Chase Whitener <capoeirab@cpan.org>",
-      "Chase Whitener <chase.whitener@infotechfl.com>",
       "Dianne Skoll <dskoll@cpan.org>"
    ],
    "x_generated_by_perl" : "v5.30.0",
