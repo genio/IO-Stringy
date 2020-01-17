@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use Symbol;
 
-our $VERSION = "2.113";
+our $VERSION = '2.114';
 
 sub new {
    my ($class, $fh, $start, $lg) = @_;

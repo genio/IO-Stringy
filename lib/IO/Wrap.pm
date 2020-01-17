@@ -5,7 +5,7 @@ use Exporter;
 use FileHandle;
 use Carp;
 
-our $VERSION = "2.113";
+our $VERSION = '2.114';
 our @ISA = qw(Exporter);
 our @EXPORT = qw(wraphandle);
 

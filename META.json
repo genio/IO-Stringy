@@ -92,35 +92,35 @@
    "provides" : {
       "IO::AtomicFile" : {
          "file" : "lib/IO/AtomicFile.pm",
-         "version" : "2.113"
+         "version" : "2.114"
       },
       "IO::InnerFile" : {
          "file" : "lib/IO/InnerFile.pm",
-         "version" : "2.113"
+         "version" : "2.114"
       },
       "IO::Lines" : {
          "file" : "lib/IO/Lines.pm",
-         "version" : "2.113"
+         "version" : "2.114"
       },
       "IO::Scalar" : {
          "file" : "lib/IO/Scalar.pm",
-         "version" : "2.113"
+         "version" : "2.114"
       },
       "IO::ScalarArray" : {
          "file" : "lib/IO/ScalarArray.pm",
-         "version" : "2.113"
+         "version" : "2.114"
       },
       "IO::Stringy" : {
          "file" : "lib/IO/Stringy.pm",
-         "version" : "2.113"
+         "version" : "2.114"
       },
       "IO::Wrap" : {
          "file" : "lib/IO/Wrap.pm",
-         "version" : "2.113"
+         "version" : "2.114"
       },
       "IO::WrapTie" : {
          "file" : "lib/IO/WrapTie.pm",
-         "version" : "2.113"
+         "version" : "2.114"
       }
    },
    "release_status" : "stable",
@@ -135,7 +135,7 @@
          "web" : "https://github.com/genio/IO-Stringy"
       }
    },
-   "version" : "2.113",
+   "version" : "2.114",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.030000"
@@ -446,7 +446,7 @@
                   "branch" : null,
                   "changelog" : "Changes",
                   "signed" : 0,
-                  "tag" : "v2.113",
+                  "tag" : "v2.114",
                   "tag_format" : "v%V",
                   "tag_message" : "v%V"
                },

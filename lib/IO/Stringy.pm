@@ -2,7 +2,7 @@ package IO::Stringy;
 use strict;
 use Exporter;
 
-our $VERSION = '2.113';
+our $VERSION = '2.114';
 
 1;
 __END__

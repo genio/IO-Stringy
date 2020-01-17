@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use parent 'IO::File';
 
-our $VERSION = "2.113";
+our $VERSION = '2.114';
 
 #------------------------------
 # new ARGS...
