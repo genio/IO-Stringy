@@ -23,15 +23,15 @@ use IO::WrapTie; # Tie your handles & retain full OO interface
 
 This toolkit primarily provides modules for performing both traditional
 and object-oriented i/o) on things _other_ than normal filehandles;
-in particular, [IO::Scalar](https://metacpan.org/pod/IO::Scalar), [IO::ScalarArray](https://metacpan.org/pod/IO::ScalarArray),
-and [IO::Lines](https://metacpan.org/pod/IO::Lines).
+in particular, [IO::Scalar](https://metacpan.org/pod/IO%3A%3AScalar), [IO::ScalarArray](https://metacpan.org/pod/IO%3A%3AScalarArray),
+and [IO::Lines](https://metacpan.org/pod/IO%3A%3ALines).
 
 In the more-traditional IO::Handle front, we
-have [IO::AtomicFile](https://metacpan.org/pod/IO::AtomicFile)
+have [IO::AtomicFile](https://metacpan.org/pod/IO%3A%3AAtomicFile)
 which may be used to painlessly create files which are updated
 atomically.
 
-And in the "this-may-prove-useful" corner, we have [IO::Wrap](https://metacpan.org/pod/IO::Wrap),
+And in the "this-may-prove-useful" corner, we have [IO::Wrap](https://metacpan.org/pod/IO%3A%3AWrap),
 whose exported wraphandle() function will clothe anything that's not
 a blessed object in an IO::Handle-like wrapper... so you can just
 use OO syntax and stop worrying about whether your function's caller

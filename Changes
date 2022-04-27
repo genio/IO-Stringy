@@ -1,6 +1,7 @@
 Revision history  {{$dist->name}}
 
 {{$NEXT}}
+  - Move to Starter::Git revision 5
 
 2.113     2020-01-16
   - Get rid of use of Common and TBone in all tests
