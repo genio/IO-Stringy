@@ -1,5 +1,5 @@
 on 'runtime' => sub {
-    requires 'perl' => '5.008';
+    requires 'perl' => '5.006';
     requires 'strict';
     requires 'warnings';
     requires 'overload';
