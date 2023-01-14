@@ -2,7 +2,8 @@ package IO::AtomicFile;
 
 use strict;
 use warnings;
-use parent 'IO::File';
+use IO::File ();
+our @ISA = qw(IO::File);
 
 our $VERSION = '2.114';
 
