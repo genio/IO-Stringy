@@ -3,7 +3,6 @@ on 'runtime' => sub {
     requires 'strict';
     requires 'warnings';
     requires 'overload';
-    requires 'parent';
     requires 'Carp';
     requires 'Exporter';
     requires 'FileHandle';
