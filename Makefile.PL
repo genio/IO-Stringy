@@ -10,9 +10,6 @@ use ExtUtils::MakeMaker;
 my %WriteMakefileArgs = (
   "ABSTRACT" => "I/O on in-core objects like strings and arrays",
   "AUTHOR" => "Erik Dorfman <eryq\@cpan.org>",
-  "BUILD_REQUIRES" => {
-    "ExtUtils::MakeMaker" => 0
-  },
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0
   },
@@ -21,30 +18,20 @@ my %WriteMakefileArgs = (
   "NAME" => "IO::Stringy",
   "PREREQ_PM" => {
     "Carp" => 0,
-    "Exporter" => "5.57",
-    "File::Spec" => 0,
+    "Exporter" => 0,
     "FileHandle" => 0,
     "IO::File" => 0,
     "IO::Handle" => 0,
     "Symbol" => 0,
     "overload" => 0,
-    "parent" => 0,
     "strict" => 0,
     "warnings" => 0
   },
   "TEST_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0,
-    "File::Basename" => 0,
     "File::Spec" => 0,
     "File::Temp" => 0,
-    "FileHandle" => 0,
-    "IO::File" => 0,
-    "IO::Handle" => 0,
-    "Symbol" => 0,
-    "Test::More" => "0.88",
-    "Test::Tester" => 0,
-    "strict" => 0,
-    "warnings" => 0
+    "Test::More" => 0
   },
   "VERSION" => "2.114",
   "test" => {
@@ -54,19 +41,16 @@ my %WriteMakefileArgs = (
 
 my %FallbackPrereqs = (
   "Carp" => 0,
-  "Exporter" => "5.57",
+  "Exporter" => 0,
   "ExtUtils::MakeMaker" => 0,
-  "File::Basename" => 0,
   "File::Spec" => 0,
   "File::Temp" => 0,
   "FileHandle" => 0,
   "IO::File" => 0,
   "IO::Handle" => 0,
   "Symbol" => 0,
-  "Test::More" => "0.88",
-  "Test::Tester" => 0,
+  "Test::More" => 0,
   "overload" => 0,
-  "parent" => 0,
   "strict" => 0,
   "warnings" => 0
 );
